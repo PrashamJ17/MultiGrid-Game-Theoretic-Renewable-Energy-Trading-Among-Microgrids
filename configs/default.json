@@ -1,0 +1,29 @@
+{
+  "scenario_id": "four_microgrids_default",
+  "seed": 42,
+  "days": 1,
+  "hours_per_day": 24,
+  "microgrid_ids": ["MG1", "MG2", "MG3", "MG4"],
+  "retail_price_inr_per_kwh": 8.0,
+  "export_price_inr_per_kwh": 3.0,
+  "seller_fee_inr_per_kwh": 0.0,
+  "buyer_fee_inr_per_kwh": 0.0,
+  "price_step_inr": 0.5,
+  "bargaining_seller_weight": 0.5,
+  "tol": 1e-8,
+  "max_competitive_sellers": 3,
+  "require_full_horizon": true,
+  "generator": {
+    "solar_scale": 1.0,
+    "demand_scale": 1.0,
+    "noise_std_fraction": 0.05,
+    "sunrise_hour": 6.0,
+    "sunset_hour": 18.0,
+    "microgrids": {
+      "MG1": {"demand_template": "residential", "solar_peak_kwh": 45.0, "demand_peak_kwh": 25.0},
+      "MG2": {"demand_template": "commercial", "solar_peak_kwh": 12.0, "demand_peak_kwh": 28.0},
+      "MG3": {"demand_template": "campus", "solar_peak_kwh": 30.0, "demand_peak_kwh": 18.0},
+      "MG4": {"demand_template": "industrial", "solar_peak_kwh": 6.0, "demand_peak_kwh": 32.0}
+    }
+  }
+}

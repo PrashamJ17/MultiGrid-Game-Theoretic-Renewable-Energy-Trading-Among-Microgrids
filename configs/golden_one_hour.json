@@ -1,0 +1,16 @@
+{
+  "scenario_id": "golden_one_hour",
+  "seed": 42,
+  "days": 1,
+  "hours_per_day": 24,
+  "microgrid_ids": ["MG1", "MG2", "MG3", "MG4"],
+  "retail_price_inr_per_kwh": 8.0,
+  "export_price_inr_per_kwh": 3.0,
+  "seller_fee_inr_per_kwh": 0.0,
+  "buyer_fee_inr_per_kwh": 0.0,
+  "price_step_inr": 0.5,
+  "bargaining_seller_weight": 0.5,
+  "tol": 1e-8,
+  "max_competitive_sellers": 3,
+  "require_full_horizon": false
+}

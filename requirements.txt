@@ -1,0 +1,16 @@
+# MultiGrid runtime + development dependencies.
+# Version ranges are constrained, not frozen; the exact versions used for the
+# recorded test run are listed in README.md ("Tested environment").
+numpy>=1.26,<3
+pandas>=2.1,<3
+scipy>=1.11,<2
+streamlit>=1.37,<2
+plotly>=5.20,<7
+matplotlib>=3.8,<4
+pytest>=8,<9
+
+# Install the project package itself (src/ layout) in editable mode.
+-e .
+
+# Optional, not needed for Phase 1 (independent LP cross-check in Phase 2):
+# cvxpy>=1.4
