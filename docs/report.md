@@ -204,7 +204,7 @@ while the all-day buyers MG2 and MG4 gain INR 46.71 and 37.95 instead of 308.18 
 ![Fig. 11](figures/fig11_price_tick.png)
 
 - **What changes with the price tick:** the price grid, and with it the top acceptable price. The average competitive price is 7.00, 7.50 and 7.75 INR/kWh for ticks of 1.0, 0.5 and 0.25.
-- **The distribution follows:** competitive Jain fairness falls from 0.567 to 0.467 to 0.424.
+- **The distribution follows:** competitive Jain fairness falls from 0.567 to 0.467 to 0.423.
 - **What doesn't change:** total gain (INR 862.08) and the number of no-equilibrium hours (2).
 - **Finding 4.** Finer price grids let sellers capture more of the spread without changing efficiency.
 
@@ -215,7 +215,7 @@ while the all-day buyers MG2 and MG4 gain INR 46.71 and 37.95 instead of 308.18 
 | Mechanism | Gain mean ± sd (INR) | Gain range (INR) | Jain mean ± sd | Efficiency mean ± sd (range) |
 |---|---|---|---|---|
 | Cooperative | 1,284.80 ± 30.72 | 1,248.22 – 1,353.45 | 0.839 ± 0.020 | 1.000 |
-| Competitive | 898.80 ± 124.02 | 641.17 – 1,083.86 | 0.472 ± 0.023 | 0.699 ± 0.093 (0.514 – 0.846) |
+| Competitive | 898.80 ± 124.02 | 641.17 – 1,083.86 | 0.472 ± 0.022 | 0.699 ± 0.093 (0.514 – 0.846) |
 
 Every seed has 1–3 hours without a pure equilibrium (mean 1.9). The seed-to-seed variation in competitive
 gain is four times the cooperative variation, and it is driven by those hours.

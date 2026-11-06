@@ -16,6 +16,11 @@ and an independent audit.
 > export INR 3/kWh) are illustrative assumptions, not the tariffs of any real utility. This is a research and
 > teaching demonstration, not an electricity trading or grid-control system.
 
+**Team:** Krishna Tyagi, Prasham Jain, Hrishi Bhalaria and Lakshya Srivastava.
+
+**Full report:** [docs/MultiGrid_Project_Report.pdf](docs/MultiGrid_Project_Report.pdf) (editable version:
+[.docx](docs/MultiGrid_Project_Report.docx)). **Presentation:** [docs/MultiGrid_presentation.pptx](docs/MultiGrid_presentation.pptx).
+
 ## Implementation status
 
 All five phases are complete. **345 tests pass**, and the independent export audit passes **22/22** checks.
@@ -32,7 +37,9 @@ All five phases are complete. **345 tests pass**, and the independent export aud
 
 | Document | Contents |
 |---|---|
-| [docs/report.md](docs/report.md) | Report material: problem, model, verification, results of E1–E7 with figures, discussion, limitations |
+| [docs/MultiGrid_Project_Report.pdf](docs/MultiGrid_Project_Report.pdf) | The complete project report (59 pages): problem, background, model, cooperative and competitive games with worked payoff matrices, software design and dashboard, verification, experiments E1–E7 with all figures and tables, discussion, conclusions, references and appendices. Editable version: [.docx](docs/MultiGrid_Project_Report.docx) |
+| [docs/MultiGrid_presentation.pptx](docs/MultiGrid_presentation.pptx) | 17-slide presentation of the project and its results, with speaker notes |
+| [docs/report.md](docs/report.md) | Short report summary: problem, model, verification and the results of E1–E7 with figures |
 | [docs/experiment_protocol.md](docs/experiment_protocol.md) | Design rules, the experiment matrix, output files, interpretation rules |
 | [docs/model_specification.md](docs/model_specification.md) | Every player, price, payoff, equilibrium and metric definition |
 | [docs/demo_script.md](docs/demo_script.md) | 8-minute dashboard demo with expected values, plus viva answers |
